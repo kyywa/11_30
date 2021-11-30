@@ -16,3 +16,8 @@ while True:
 num_a = int(input("Adja meg az első számot: "))
 num_b = int(input("Adja meg az második számot: "))
 print("{} és {} távolsága a számegyenesen: {}".format(num_a,num_b,abs(num_a-num_b)))
+
+osszeg = 0
+while osszeg<100:
+    osszeg += int(input("Adjon meg egy számot: "))
+    print("Az összeg {}".format(osszeg))

@@ -12,3 +12,7 @@ while True:
     else:
         print("Siker!")
         break
+
+num_a = int(input("Adja meg az első számot: "))
+num_b = int(input("Adja meg az második számot: "))
+print("{} és {} távolsága a számegyenesen: {}".format(num_a,num_b,abs(num_a-num_b)))
